@@ -738,6 +738,45 @@ Parallax
 	height: 500px;
 }
 
+.callToAction{
+	background:#00b8ff;
+	padding:40px 0;
+	text-align:center;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.callToAction:hover {
+	background: #f56eab;
+}
+
+.callToAction p{
+	font-size:16px;
+	font-weight: 300;
+	color:#ffffff;
+	margin:0 0 15px 0;
+	}
+	
+.callToAction p small{
+	font-size:16px;
+	font-weight: 300;
+	color:#ffffff;
+	display:inline-block;
+	}
+	
+.callToAction span{
+	display:block;
+	font-size:14px;
+	font-style: italic;
+	color:#ffffff;
+	}
+
+.callToAction span i{
+	font-size: 38px;
+}
+
+
 
 .btn-skin:hover,
 .btn-skin:focus,
